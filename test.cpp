@@ -21,7 +21,7 @@ int main()
 
     // run the test once
     auto time = fixture.run();
-    std::cout << "Single run time: " << time << " microseconds" << std::endl;
+    std::cout << "Warmup run time: " << time << " microseconds" << std::endl;
 
     // run the test 10 times and get the average
     auto avgTime = fixture.average(10);
