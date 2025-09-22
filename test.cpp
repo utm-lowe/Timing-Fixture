@@ -1,3 +1,12 @@
+/**
+ * @file test.cpp
+ * @author Bob Lowe <rlowe8@utm.edu>
+ * @brief A little test program to time sorting a vector of random integers.
+ * @version 0.1
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "timingFixture.hpp"
 #include <chrono>
 #include <iostream>
