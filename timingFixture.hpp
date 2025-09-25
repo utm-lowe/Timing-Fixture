@@ -61,7 +61,7 @@ public:
         unsigned long long total=0;
 
         // run for count number of times, accumulating total
-        for(int i=0; i<count; i++) {
+        for(unsigned int i=0; i<count; i++) {
             total += run();
         }
 
